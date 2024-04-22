@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`DialogModal > DialogModal component renders correctly 1`] = `
+<div
+  aria-modal="true"
+  className="modal"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="dialog"
+  tabIndex="-1"
+>
+  <div
+    className="modal-content"
+  >
+    <button
+      aria-label="Close"
+      className="close-btn"
+      onClick={[Function]}
+    >
+      ×
+    </button>
+    <p />
+  </div>
+</div>
+`;
+
+exports[`DialogModal > The DialogModal is displayed with a message 1`] = `
+<div
+  aria-modal="true"
+  className="modal"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="dialog"
+  tabIndex="-1"
+>
+  <div
+    className="modal-content"
+  >
+    <button
+      aria-label="Close"
+      className="close-btn"
+      onClick={[Function]}
+    >
+      ×
+    </button>
+    <p>
+      Test message !
+    </p>
+  </div>
+</div>
+`;
